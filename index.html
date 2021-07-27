@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELPLOYEE ENROLLMENT</title>
+    <style type="text/css">
+        body {
+            background-color: #AB90AD;
+        }
+
+        h1,
+        h3 {
+            background-color: #AB90AD;
+            text-align: center;
+        }
+
+        table {
+            background-color: #AB90AD;
+            font-size: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        td {
+            text-align: left;
+        }
+
+        textarea {
+            min-width: 700px;
+            max-width: 700px;
+            min-height: 100px;
+            max-height: 100px;
+        }
+
+        button {
+            margin-left: 175px;
+        }
+
+        .wer {
+            width: 90%;
+            background-color: #AB90AD;
+        }
+
+        select {
+            background-color: #AB90AD;
+            width: 90.5%;
+        }
+
+        textarea {
+            background-color: #AB90AD;
+        }
+
+        #dob {
+            background-color: #AB90AD;
+            width: 90%;
+        }
+
+        label {
+            margin-left: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="title" align="center" style="background: #8E6C91;">
+        <div class="logo"><img src="https://img.icons8.com/dotty/80/000000/circled-m.png" alt="Mc" /></div>
+        <div class="company">Mc Tef Cafe</div>
+        <div id="q">Join Our Team for the comfortable career</div>
+    </div>
+    <form align="Center" style="background:#AB90AD;">
+        <h1>Personal Information</h1>
+        <div id="pi">
+            <div>
+                <table style="width: 700px" , align="center" , border="1px">
+                    <tr>
+                        <td><label for="fname">First Name</label></td>
+                        <td><input type="text" name="Fname" id="fname" Class="wer" placeholder="Enter your Firstname"
+                                required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Lname">Last Name</label></td>
+                        <td><input type="text" name="Lname" id="lname" Class="wer" placeholder="Enter your Lastname"
+                                required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Date of Birth</label></td>
+                        <td><input type="date" name="Dob" id="dob" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="addresses">Address line 1</label></td>
+                        <td><input type="varchar" name="Address" id="addresses" Class="wer" maxlength="25" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="addresses">Address line 2</label></td>
+                        <td><input type="varchar" name="Address" id="addresses" Class="wer" maxlength="25"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Phone Number +91 </label></td>
+                        <td><input type="text" name="phone" id="phone" maxlength="10" Class="wer" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" name="email" id="email" Class="wer" required></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <h1>Educational Information</h1>
+        <h3>Enter the Lastest 3 Educational Details</h3>
+        <div id="pi">
+            <div>
+                <table style="width: 700px" , align="center" , border="1px">
+                    <tr>
+                        <td><label for="hq"> Qualification 1</label> </td>
+                        <td><select id="hq" name="Hq">
+                                <option value="Secondary school">Secondary school</option>
+                                <option value="Higher Secondary School">Higher Secondary School</option>
+                                <option value="Undergraduate">Undergraduate</option>
+                                <option value="divostgraduate">divostgraduate</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="univ">School/University Name</label></td>
+                        <td><input type="text" name="univ" id="univ" class="wer" maxlength="20"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="gpa">GPA</label></td>
+                        <td><select name="gpa" id="gpa">
+                                <option value="Above 5.0">Below 5.0</option>
+                                <option value="Above 5.0">Above 5.0</option>
+                                <option value="Above 6.0">Above 6.0</option>
+                                <option value="Above 7.0">Above 7.0</option>
+                                <option value="Above 8.0">Above 8.0</option>
+                                <option value="Above 9.0">Above 9.0</option>
+                                <option value="Above 9.5">Above 9.5</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hq"> Qualification 2</label> </td>
+                        <td><select id="hq" name="Hq">
+                                <option value="Secondary school">Secondary school</option>
+                                <option value="Higher Secondary School">Higher Secondary School</option>
+                                <option value="Undergraduate">Undergraduate</option>
+                                <option value="divostgraduate">divostgraduate</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="univ">School/University Name</label></td>
+                        <td><input type="text" name="univ" id="univ" class="wer" maxlength="20"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="gpa">GPA</label></td>
+                        <td><select name="gpa" id="gpa">
+                                <option value="Above 5.0">Below 5.0</option>
+                                <option value="Above 5.0">Above 5.0</option>
+                                <option value="Above 6.0">Above 6.0</option>
+                                <option value="Above 7.0">Above 7.0</option>
+                                <option value="Above 8.0">Above 8.0</option>
+                                <option value="Above 9.0">Above 9.0</option>
+                                <option value="Above 9.5">Above 9.5</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hq"> Qualification 3</label> </td>
+                        <td><select id="hq" name="Hq">
+                                <option value="Secondary school">Secondary school</option>
+                                <option value="Higher Secondary School">Higher Secondary School</option>
+                                <option value="Undergraduate">Undergraduate</option>
+                                <option value="divostgraduate">divostgraduate</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="univ">School/University Name</label></td>
+                        <td><input type="text" name="univ" id="univ" class="wer" maxlength="20"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="gpa">GPA</label></td>
+                        <td><select name="gpa" id="gpa">
+                                <option value="Above 5.0">Below 5.0</option>
+                                <option value="Above 5.0">Above 5.0</option>
+                                <option value="Above 6.0">Above 6.0</option>
+                                <option value="Above 7.0">Above 7.0</option>
+                                <option value="Above 8.0">Above 8.0</option>
+                                <option value="Above 9.0">Above 9.0</option>
+                                <option value="Above 9.5">Above 9.5</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="jb">Applying for </label></td>
+                        <td><select id="jb" name="job">
+                                <option value="Full Time">Full Time</option>
+                                <option value="divart Time">part Time</option>
+                                <option value="Hourly">Hourly</option>
+                            </select></td>
+                    </tr>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <h1>Additional Information</h1>
+        <div id="pi">
+            <div>
+                <table style="width: 700px" align="center" , border="1px">
+                    <tr>
+                        <td><label id="ship">Are you under Scholarship ?</label></td>
+                        <td><input type="radio" name="sch" id="y" value="Yes">
+                            <label for="y">Yes</label>
+                        </td>
+                        <td><input type="radio" name="sch" id="N" value="No">
+                            <label for="N">NO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Willing to relocate ?</label></td>
+                        <td><input type="radio" id="Y" name="locate" value="yes">
+                            <label for="Y">YES</label>
+                        </td>
+                        <td><input type="radio" id="N" name="locate" value="no">
+                            <label for="N">NO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Do you have tranportation to work?</label></td>
+                        <td><input type="radio" id="Y" name="travel" value="yes">
+                            <label for="Y">YES</label>
+                        </td>
+                        <td><input type="radio" id="N" name="travel" value="no">
+                            <label for="N">NO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Do you hold a Driver's License?</label> </td>
+                        <td><input type="radio" id="Y" name="License" value="yes">
+                            <label for="Y">YES</label>
+                        </td>
+                        <td><input type="radio" id="N" name="License" value="no">
+                            <label for="N">NO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Are you willing to work over time?</label></td>
+                        <td><input type="radio" id="Y" name="overtime" value="yes">
+                            <label for="Y">YES</label>
+                        </td>
+                        <td><input type="radio" id="N" name="overtime" value="no">
+                            <label for="N">NO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Are you married?</label></td>
+                        <td><input type="radio" id="Y" name="married" value="yes">
+                            <label for="Y">YES</label>
+                        </td>
+                        <td><input type="radio" id="N" name="married" value="no">
+                            <label for="N">NO</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><textarea name="Terms & Conditions" id="Terms & Conditions">Terms & Conditions
+                                A Terms and Conditions agreement is not legally required. However, having one comes with a number 
+                                of imdivortant benefits for both you and your users/customers.
+                                The benefits include increasing your control over your business/divlatform, while heldiving your 
+                                users understand your rules, requirements and restrictions.
+                            </textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><input type="checkbox" name="Tc" id="TC" required>
+                            <label for="Tc" name="Tc">I agree to the terms & conditions above.</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><button type="button" id="bn" name="Sb"
+                                onclick="alert('Your Application has been successfully submitted');">Submit</button>
+                            <button type="button" id="vn" name="q">Try Later</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
